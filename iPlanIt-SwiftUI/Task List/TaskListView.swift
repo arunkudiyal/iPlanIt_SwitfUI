@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct TaskListView: View {
+    @State private var showSheet = false
+    
     @State private var current = "Pending"
     
     var tasks = ["Pending", "All", "Completed"]
@@ -50,13 +52,12 @@ struct TaskListView: View {
             ToolbarItem(placement: .navigationBarTrailing) {
                 Button {
                 } label: {
-                    Label("", systemImage: "")
+                    Label("", systemImage: "plus.circle")
                 }
-                .padding()
-                .background(
-                    NavigationLink("+", destination: AddTaskView())
-                )
-                .padding()
+                .font(.largeTitle)
+                .sheet(isPresented: $showSheet) {
+                    SheetView()
+                }
             }
         }
     }
