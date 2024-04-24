@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C83B35EF2B95F07100BD5E1A /* SharingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83B35EE2B95F07100BD5E1A /* SharingView.swift */; };
+		C83B35F12B96083B00BD5E1A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83B35F02B96083B00BD5E1A /* MainView.swift */; };
+		C83B35F42B962FB600BD5E1A /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83B35F32B962FB600BD5E1A /* CalendarView.swift */; };
+		C8A4CE742BA2EE44006B966A /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A4CE732BA2EE44006B966A /* SheetView.swift */; };
+		C8B2E8E92B91A84A004F2562 /* iPlanIt_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B2E8E82B91A84A004F2562 /* iPlanIt_SwiftUIApp.swift */; };
+		C8B2E8EB2B91A84A004F2562 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B2E8EA2B91A84A004F2562 /* ContentView.swift */; };
+		C8B2E8ED2B91A84B004F2562 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8B2E8EC2B91A84B004F2562 /* Assets.xcassets */; };
+		C8B2E8F02B91A84B004F2562 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8B2E8EF2B91A84B004F2562 /* Preview Assets.xcassets */; };
+		C8CBEC112B98486A00D39D24 /* MainCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CBEC102B98486A00D39D24 /* MainCalendarView.swift */; };
+		C8D00E222B9C9C22007C4434 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D00E212B9C9C22007C4434 /* AddTaskView.swift */; };
+		C8EC0A142B959D6F00BA02DF /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EC0A132B959D6F00BA02DF /* Home.swift */; };
+		C8EC0A162B95A52500BA02DF /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EC0A152B95A52500BA02DF /* Task.swift */; };
+		C8EC0A192B95A57600BA02DF /* Suggestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EC0A182B95A57600BA02DF /* Suggestion.swift */; };
+		C8EC0A1C2B95A5E800BA02DF /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EC0A1B2B95A5E800BA02DF /* TaskListView.swift */; };
+		C8EC0A1E2B95B83F00BA02DF /* CompletedTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EC0A1D2B95B83F00BA02DF /* CompletedTaskView.swift */; };
+		C8EC0A202B95B85C00BA02DF /* PendingTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EC0A1F2B95B85C00BA02DF /* PendingTaskView.swift */; };
+		C8EC0A222B95B93300BA02DF /* AllTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EC0A212B95B93300BA02DF /* AllTaskView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C83B35EE2B95F07100BD5E1A /* SharingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharingView.swift; sourceTree = "<group>"; };
+		C83B35F02B96083B00BD5E1A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C83B35F32B962FB600BD5E1A /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		C8A4CE732BA2EE44006B966A /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
+		C8B2E8E52B91A84A004F2562 /* iPlanIt-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iPlanIt-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8B2E8E82B91A84A004F2562 /* iPlanIt_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPlanIt_SwiftUIApp.swift; sourceTree = "<group>"; };
+		C8B2E8EA2B91A84A004F2562 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C8B2E8EC2B91A84B004F2562 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8B2E8EF2B91A84B004F2562 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C8CBEC102B98486A00D39D24 /* MainCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCalendarView.swift; sourceTree = "<group>"; };
+		C8D00E212B9C9C22007C4434 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		C8EC0A132B959D6F00BA02DF /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		C8EC0A152B95A52500BA02DF /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		C8EC0A182B95A57600BA02DF /* Suggestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Suggestion.swift; sourceTree = "<group>"; };
+		C8EC0A1B2B95A5E800BA02DF /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		C8EC0A1D2B95B83F00BA02DF /* CompletedTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedTaskView.swift; sourceTree = "<group>"; };
+		C8EC0A1F2B95B85C00BA02DF /* PendingTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingTaskView.swift; sourceTree = "<group>"; };
+		C8EC0A212B95B93300BA02DF /* AllTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTaskView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8B2E8E22B91A84A004F2562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C83B35ED2B95F05E00BD5E1A /* Sharing */ = {
+			isa = PBXGroup;
+			children = (
+				C83B35EE2B95F07100BD5E1A /* SharingView.swift */,
+			);
+			path = Sharing;
+			sourceTree = "<group>";
+		};
+		C83B35F22B962FA600BD5E1A /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				C83B35F32B962FB600BD5E1A /* CalendarView.swift */,
+				C8CBEC102B98486A00D39D24 /* MainCalendarView.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		C8A4CE722BA2EE2D006B966A /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				C8A4CE732BA2EE44006B966A /* SheetView.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		C8B2E8DC2B91A84A004F2562 = {
+			isa = PBXGroup;
+			children = (
+				C8B2E8E72B91A84A004F2562 /* iPlanIt-SwiftUI */,
+				C8B2E8E62B91A84A004F2562 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8B2E8E62B91A84A004F2562 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8B2E8E52B91A84A004F2562 /* iPlanIt-SwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8B2E8E72B91A84A004F2562 /* iPlanIt-SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				C8A4CE722BA2EE2D006B966A /* New Group */,
+				C8D00E202B9C9BFC007C4434 /* Add Task */,
+				C83B35F22B962FA600BD5E1A /* Calendar */,
+				C83B35ED2B95F05E00BD5E1A /* Sharing */,
+				C8EC0A1A2B95A5BF00BA02DF /* Task List */,
+				C8EC0A172B95A55B00BA02DF /* Data Model */,
+				C8B2E8E82B91A84A004F2562 /* iPlanIt_SwiftUIApp.swift */,
+				C8B2E8EA2B91A84A004F2562 /* ContentView.swift */,
+				C83B35F02B96083B00BD5E1A /* MainView.swift */,
+				C8EC0A132B959D6F00BA02DF /* Home.swift */,
+				C8B2E8EC2B91A84B004F2562 /* Assets.xcassets */,
+				C8B2E8EE2B91A84B004F2562 /* Preview Content */,
+			);
+			path = "iPlanIt-SwiftUI";
+			sourceTree = "<group>";
+		};
+		C8B2E8EE2B91A84B004F2562 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C8B2E8EF2B91A84B004F2562 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C8D00E202B9C9BFC007C4434 /* Add Task */ = {
+			isa = PBXGroup;
+			children = (
+				C8D00E212B9C9C22007C4434 /* AddTaskView.swift */,
+			);
+			path = "Add Task";
+			sourceTree = "<group>";
+		};
+		C8EC0A172B95A55B00BA02DF /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				C8EC0A152B95A52500BA02DF /* Task.swift */,
+				C8EC0A182B95A57600BA02DF /* Suggestion.swift */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		C8EC0A1A2B95A5BF00BA02DF /* Task List */ = {
+			isa = PBXGroup;
+			children = (
+				C8EC0A1B2B95A5E800BA02DF /* TaskListView.swift */,
+				C8EC0A1D2B95B83F00BA02DF /* CompletedTaskView.swift */,
+				C8EC0A1F2B95B85C00BA02DF /* PendingTaskView.swift */,
+				C8EC0A212B95B93300BA02DF /* AllTaskView.swift */,
+			);
+			path = "Task List";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8B2E8E42B91A84A004F2562 /* iPlanIt-SwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8B2E8F32B91A84B004F2562 /* Build configuration list for PBXNativeTarget "iPlanIt-SwiftUI" */;
+			buildPhases = (
+				C8B2E8E12B91A84A004F2562 /* Sources */,
+				C8B2E8E22B91A84A004F2562 /* Frameworks */,
+				C8B2E8E32B91A84A004F2562 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iPlanIt-SwiftUI";
+			productName = "iPlanIt-SwiftUI";
+			productReference = C8B2E8E52B91A84A004F2562 /* iPlanIt-SwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8B2E8DD2B91A84A004F2562 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					C8B2E8E42B91A84A004F2562 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = C8B2E8E02B91A84A004F2562 /* Build configuration list for PBXProject "iPlanIt-SwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8B2E8DC2B91A84A004F2562;
+			productRefGroup = C8B2E8E62B91A84A004F2562 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8B2E8E42B91A84A004F2562 /* iPlanIt-SwiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8B2E8E32B91A84A004F2562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8B2E8F02B91A84B004F2562 /* Preview Assets.xcassets in Resources */,
+				C8B2E8ED2B91A84B004F2562 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8B2E8E12B91A84A004F2562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8EC0A1C2B95A5E800BA02DF /* TaskListView.swift in Sources */,
+				C8D00E222B9C9C22007C4434 /* AddTaskView.swift in Sources */,
+				C8EC0A162B95A52500BA02DF /* Task.swift in Sources */,
+				C83B35F42B962FB600BD5E1A /* CalendarView.swift in Sources */,
+				C8B2E8EB2B91A84A004F2562 /* ContentView.swift in Sources */,
+				C8EC0A1E2B95B83F00BA02DF /* CompletedTaskView.swift in Sources */,
+				C83B35EF2B95F07100BD5E1A /* SharingView.swift in Sources */,
+				C8A4CE742BA2EE44006B966A /* SheetView.swift in Sources */,
+				C8EC0A202B95B85C00BA02DF /* PendingTaskView.swift in Sources */,
+				C8EC0A142B959D6F00BA02DF /* Home.swift in Sources */,
+				C83B35F12B96083B00BD5E1A /* MainView.swift in Sources */,
+				C8EC0A222B95B93300BA02DF /* AllTaskView.swift in Sources */,
+				C8B2E8E92B91A84A004F2562 /* iPlanIt_SwiftUIApp.swift in Sources */,
+				C8CBEC112B98486A00D39D24 /* MainCalendarView.swift in Sources */,
+				C8EC0A192B95A57600BA02DF /* Suggestion.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C8B2E8F12B91A84B004F2562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C8B2E8F22B91A84B004F2562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8B2E8F42B91A84B004F2562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iPlanIt-SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = NFYDD48YG3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.www.iPlanIt-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C8B2E8F52B91A84B004F2562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iPlanIt-SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = NFYDD48YG3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.www.iPlanIt-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8B2E8E02B91A84A004F2562 /* Build configuration list for PBXProject "iPlanIt-SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8B2E8F12B91A84B004F2562 /* Debug */,
+				C8B2E8F22B91A84B004F2562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8B2E8F32B91A84B004F2562 /* Build configuration list for PBXNativeTarget "iPlanIt-SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8B2E8F42B91A84B004F2562 /* Debug */,
+				C8B2E8F52B91A84B004F2562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8B2E8DD2B91A84A004F2562 /* Project object */;
+}
