@@ -12,14 +12,13 @@ struct MainCalendarView: View {
     @Environment(\.dismiss) private var dismiss
     
     var body: some View {
-        NavigationView {
-            NavigationView {
-                CalendarView(inetrval: DateInterval(start: .distantPast, end: .distantFuture))
-                    .padding(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
-                    .offset(y: -270)
-            }
+        VStack {
+            CalendarView(inetrval: DateInterval(start: .distantPast, end: .distantFuture))
+                .padding(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
+            // .aspectRatio(contentMode: .fill)
+            // .offset(y: -270)
         }
-        .navigationTitle("Calendar")
+        .navigationBarTitle("Calendar")
         .toolbar {
             ToolbarItem(placement: .destructiveAction) {
                 Button(action: {
@@ -29,6 +28,7 @@ struct MainCalendarView: View {
                 })
             }
         }
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

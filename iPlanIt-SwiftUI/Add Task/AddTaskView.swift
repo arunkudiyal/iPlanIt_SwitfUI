@@ -39,83 +39,91 @@ struct AddTaskView: View {
     let breaks = ["1 minute", "2 minutes", "5 minutes", "10 minutes", "15 minutes", "30 minutes"]
     
     var body: some View {
-        NavigationView {
-            VStack {
-                Circle()
-                    .frame(height: 100)
-                Text("\(eventName)")
-                    .font(.title)
-                    
-                Form {
-                    Section {
-                        TextField("Event Name", text: $eventName)
+        VStack {
+            Circle()
+                .frame(height: 100)
+                .onTapGesture {
+                    print("Works!")
+                }
+            Text("\(eventName)")
+                .font(.title)
+            
+            Form {
+                Section {
+                    TextField("Event Name", text: $eventName)
+                }
+                
+                Section {
+                    Toggle(isOn: $allDay) {
+                        Text("All Day")
                     }
-                    
-                    Section {
-                        Toggle(isOn: $allDay) {
-                            Text("All Day")
-                        }
-                        if(!allDay) {
-                            DatePicker("Starts", selection: $startTime)
-                            DatePicker("Ends", selection: $endTime)
-                        } else {
-                            DatePicker("On", selection: $startTime, in: ...Date.now, displayedComponents: .date)
-                        }
+                    if(!allDay) {
+                        DatePicker("Starts", selection: $startTime)
+                        DatePicker("Ends", selection: $endTime)
+                    } else {
+                        DatePicker("On", selection: $startTime, in: ...Date.now, displayedComponents: .date)
                     }
-                    
-                    Section {
-                        Picker("Repeat", selection: $tasKRepeat) {
-                            ForEach(repeats, id: \.self) { repeatTask in
-                                Text(repeatTask).tag(repeatTask)
-                            }
-                        }
-                    }
-                    
-                    Section(footer: Text("Adding break helps you take quick breaks or to meditate")) {
-                        Toggle(isOn: $meditation) {
-                            Text("Add Break")
-                        }
-                        if(meditation) {
-                            Picker("Duration", selection: $tasKRepeat) {
-                                ForEach(breaks, id: \.self) { taskBreak in
-                                    Text(taskBreak).tag(taskBreak)
-                                }
-                            }
+                }
+                
+                Section {
+                    Picker("Repeat", selection: $tasKRepeat) {
+                        ForEach(repeats, id: \.self) { repeatTask in
+                            Text(repeatTask).tag(repeatTask)
                         }
                     }
-                    
-                    Section(footer: Text("Include meditation to your break")) {
-                        if(!meditation) {
-                            Toggle(isOn: $addBreak) {
-                                Text("Add Meditation")
-                            }
-                            .disabled(true)
-                        } else {
-                            Toggle(isOn: $addBreak) {
-                                Text("Add Meditation")
-                            }
-                            .disabled(false)
-                        }
-                        
+                }
+                
+                Section(footer: Text("Adding break helps you take quick breaks or to meditate")) {
+                    Toggle(isOn: $meditation) {
+                        Text("Add Break")
                     }
-                    
-                    Section {
-                        Picker("Alert", selection: $alert) {
-                            ForEach(alerts, id: \.self) { alert in
-                                Text(alert).tag(alert)
+                    if(meditation) {
+                        Picker("Duration", selection: $tasKRepeat) {
+                            ForEach(breaks, id: \.self) { taskBreak in
+                                Text(taskBreak).tag(taskBreak)
                             }
                         }
                     }
                 }
-                .padding()
+                
+                Section(footer: Text("Include meditation to your break")) {
+                    if(!meditation) {
+                        Toggle(isOn: $addBreak) {
+                            Text("Add Meditation")
+                        }
+                        .disabled(true)
+                    } else {
+                        Toggle(isOn: $addBreak) {
+                            Text("Add Meditation")
+                        }
+                        .disabled(false)
+                    }
+                    
+                }
+                
+                Section {
+                    Picker("Alert", selection: $alert) {
+                        ForEach(alerts, id: \.self) { alert in
+                            Text(alert).tag(alert)
+                        }
+                    }
+                }
             }
+            .padding()
         }
         .navigationTitle("New Event")
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
-            ToolbarItem(placement: .destructiveAction) {
+            ToolbarItem(placement: .navigationBarLeading) {
                 Button(action: {
                     dismiss()
+                }, label: {
+                    Text("Cancel")
+                })
+            }
+            ToolbarItem(placement: .navigationBarTrailing) {
+                Button(action: {
+                    
                 }, label: {
                     Text("Done")
                 })

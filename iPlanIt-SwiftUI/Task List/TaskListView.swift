@@ -59,7 +59,7 @@ struct TaskListView: View {
         .sheet(isPresented: $showAddTask) {
             NavigationView {
                 AddTaskView()
-                    .offset(y: -150)
+                    // .offset(y: -150)
             }
         }
     }

@@ -11,7 +11,7 @@ enum FlagType {
     case one, two, three, four, five
 }
 
-struct Task: Identifiable {
+struct Task: Identifiable, Hashable {
     var id: UUID
     var title: String
     var emoji: String

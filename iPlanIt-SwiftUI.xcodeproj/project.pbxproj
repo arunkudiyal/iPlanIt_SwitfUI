@@ -10,7 +10,8 @@
 		C83B35EF2B95F07100BD5E1A /* SharingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83B35EE2B95F07100BD5E1A /* SharingView.swift */; };
 		C83B35F12B96083B00BD5E1A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83B35F02B96083B00BD5E1A /* MainView.swift */; };
 		C83B35F42B962FB600BD5E1A /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83B35F32B962FB600BD5E1A /* CalendarView.swift */; };
-		C8A4CE742BA2EE44006B966A /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A4CE732BA2EE44006B966A /* SheetView.swift */; };
+		C8A39F312BDD402200D83340 /* EmojiRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A39F302BDD402200D83340 /* EmojiRow.swift */; };
+		C8A39F332BDD432A00D83340 /* TaskEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A39F322BDD432A00D83340 /* TaskEditView.swift */; };
 		C8B2E8E92B91A84A004F2562 /* iPlanIt_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B2E8E82B91A84A004F2562 /* iPlanIt_SwiftUIApp.swift */; };
 		C8B2E8EB2B91A84A004F2562 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B2E8EA2B91A84A004F2562 /* ContentView.swift */; };
 		C8B2E8ED2B91A84B004F2562 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8B2E8EC2B91A84B004F2562 /* Assets.xcassets */; };
@@ -30,7 +31,8 @@
 		C83B35EE2B95F07100BD5E1A /* SharingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharingView.swift; sourceTree = "<group>"; };
 		C83B35F02B96083B00BD5E1A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		C83B35F32B962FB600BD5E1A /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
-		C8A4CE732BA2EE44006B966A /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
+		C8A39F302BDD402200D83340 /* EmojiRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRow.swift; sourceTree = "<group>"; };
+		C8A39F322BDD432A00D83340 /* TaskEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEditView.swift; sourceTree = "<group>"; };
 		C8B2E8E52B91A84A004F2562 /* iPlanIt-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iPlanIt-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8B2E8E82B91A84A004F2562 /* iPlanIt_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPlanIt_SwiftUIApp.swift; sourceTree = "<group>"; };
 		C8B2E8EA2B91A84A004F2562 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,14 +77,6 @@
 			path = Calendar;
 			sourceTree = "<group>";
 		};
-		C8A4CE722BA2EE2D006B966A /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-				C8A4CE732BA2EE44006B966A /* SheetView.swift */,
-			);
-			path = "New Group";
-			sourceTree = "<group>";
-		};
 		C8B2E8DC2B91A84A004F2562 = {
 			isa = PBXGroup;
 			children = (
@@ -102,7 +96,6 @@
 		C8B2E8E72B91A84A004F2562 /* iPlanIt-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				C8A4CE722BA2EE2D006B966A /* New Group */,
 				C8D00E202B9C9BFC007C4434 /* Add Task */,
 				C83B35F22B962FA600BD5E1A /* Calendar */,
 				C83B35ED2B95F05E00BD5E1A /* Sharing */,
@@ -150,6 +143,8 @@
 				C8EC0A1D2B95B83F00BA02DF /* CompletedTaskView.swift */,
 				C8EC0A1F2B95B85C00BA02DF /* PendingTaskView.swift */,
 				C8EC0A212B95B93300BA02DF /* AllTaskView.swift */,
+				C8A39F302BDD402200D83340 /* EmojiRow.swift */,
+				C8A39F322BDD432A00D83340 /* TaskEditView.swift */,
 			);
 			path = "Task List";
 			sourceTree = "<group>";
@@ -225,14 +220,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8EC0A1C2B95A5E800BA02DF /* TaskListView.swift in Sources */,
+				C8A39F332BDD432A00D83340 /* TaskEditView.swift in Sources */,
 				C8D00E222B9C9C22007C4434 /* AddTaskView.swift in Sources */,
 				C8EC0A162B95A52500BA02DF /* Task.swift in Sources */,
 				C83B35F42B962FB600BD5E1A /* CalendarView.swift in Sources */,
 				C8B2E8EB2B91A84A004F2562 /* ContentView.swift in Sources */,
 				C8EC0A1E2B95B83F00BA02DF /* CompletedTaskView.swift in Sources */,
 				C83B35EF2B95F07100BD5E1A /* SharingView.swift in Sources */,
-				C8A4CE742BA2EE44006B966A /* SheetView.swift in Sources */,
 				C8EC0A202B95B85C00BA02DF /* PendingTaskView.swift in Sources */,
+				C8A39F312BDD402200D83340 /* EmojiRow.swift in Sources */,
 				C8EC0A142B959D6F00BA02DF /* Home.swift in Sources */,
 				C83B35F12B96083B00BD5E1A /* MainView.swift in Sources */,
 				C8EC0A222B95B93300BA02DF /* AllTaskView.swift in Sources */,
