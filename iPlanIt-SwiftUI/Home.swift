@@ -136,7 +136,13 @@ struct Home: View {
                     Spacer()
                 } }
         }
-         .navigationTitle("Today")
+        .overlay(
+                Text("Some Random Text")
+                    .padding(.trailing, 20)
+                    .offset(x: 0, y: -50)
+            , alignment: .topTrailing
+        )
+        .navigationTitle("Today")
         .navigationBarTitleDisplayMode(.automatic)
         .toolbar {
             ToolbarItem {
